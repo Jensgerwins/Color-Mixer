@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+
+}
+body {
+    margin: 0%;
+}
+
+header {
+   
+display: flex;
+flex-direction:row;
+justify-content: row;
+align-items: center;
+background-color: rgba(255,255,255,0.75);
+padding: 2rem 1rem;
+flex-wrap: wrap;
+
+}
+
+input#range-red {
+    accent-color: red;
+}
+
+input#range-green {
+    accent-color: green;
+}
+
+input#range-blue {
+    accent-color: blue;
+
+}
+
+label {
+    font-size: 2rem;
+    color: rebeccapurple;
+
+}
+
+#color-hex {
+font-size: 4rem;
+position: relative;
+left: 40%;
+
+
+
+
+}
